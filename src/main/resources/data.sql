@@ -1,0 +1,1 @@
+insert into EMPLOYEES values(1,'chandu',28,'hyd',50000,'IT')
