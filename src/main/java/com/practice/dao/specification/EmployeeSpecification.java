@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import com.practice.dao.model.Employee;
-import com.practice.dao.util.Criteria;
-import com.practice.dao.util.CriteriaBuilder;
-import com.practice.dao.util.Operator;
+import com.practice.dao.utility.Criteria;
+import com.practice.dao.utility.CriteriaBuilder;
+import com.practice.dao.utility.Operator;
 import com.practice.rest.dto.EmployeeCriteria;
 
 

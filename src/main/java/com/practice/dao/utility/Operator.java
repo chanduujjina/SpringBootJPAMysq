@@ -1,4 +1,4 @@
-package com.practice.dao.util;
+package com.practice.dao.utility;
 
 /**
  * Enumerator to hold basic conditional operators to build JPA Specification

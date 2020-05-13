@@ -1,4 +1,4 @@
-package com.practice.dao.util;
+package com.practice.dao.utility;
 
 import java.util.List;
 import java.util.Map;
