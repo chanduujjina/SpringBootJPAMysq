@@ -1,4 +1,4 @@
-package com.practice.dao.spec;
+package com.practice.dao.specification;
 
 
 

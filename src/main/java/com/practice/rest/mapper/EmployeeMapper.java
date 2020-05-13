@@ -1,4 +1,4 @@
-package com.practice.dto;
+package com.practice.rest.mapper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,12 +6,15 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.practice.dao.AddressDetails;
-import com.practice.dao.DepartmentRepository;
-import com.practice.dao.Employee;
-import com.practice.dao.EmployeeRepository;
-import com.practice.dao.EmployeeTypeRepository;
-import com.practice.dao.SkillSet;
+import com.practice.dao.model.AddressDetails;
+import com.practice.dao.model.Employee;
+import com.practice.dao.model.SkillSet;
+import com.practice.dao.repo.DepartmentRepository;
+import com.practice.dao.repo.EmployeeRepository;
+import com.practice.dao.repo.EmployeeTypeRepository;
+import com.practice.rest.dto.AddressDto;
+import com.practice.rest.dto.EmployeeDto;
+import com.practice.rest.dto.SkillSetDto;
 
 @Component
 public class EmployeeMapper {

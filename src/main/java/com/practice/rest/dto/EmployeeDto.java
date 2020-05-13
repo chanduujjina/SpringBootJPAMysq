@@ -1,4 +1,4 @@
-package com.practice.dto;
+package com.practice.rest.dto;
 
 import java.util.List;
 

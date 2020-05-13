@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.util.MultiValueMap;
 
-import com.practice.dto.EmployeeDto;
+import com.practice.rest.dto.EmployeeDto;
 
 
 public interface EmployeeService {

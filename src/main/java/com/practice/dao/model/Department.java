@@ -1,4 +1,4 @@
-package com.practice.dao;
+package com.practice.dao.model;
 
 import java.util.List;
 
@@ -9,7 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.practice.dao.Employee;
 
 import lombok.Data;
 

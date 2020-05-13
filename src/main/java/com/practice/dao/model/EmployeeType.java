@@ -1,4 +1,4 @@
-package com.practice.dao;
+package com.practice.dao.model;
 
 import java.util.List;
 

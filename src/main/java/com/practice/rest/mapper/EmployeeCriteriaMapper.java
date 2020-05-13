@@ -1,10 +1,10 @@
-package com.practice;
+package com.practice.rest.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.util.MultiValueMap;
 
-import com.practice.dto.EmployeeCriteria;
+import com.practice.rest.dto.EmployeeCriteria;
 
 
 

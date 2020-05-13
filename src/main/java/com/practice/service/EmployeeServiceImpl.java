@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.MultiValueMap;
 
-import com.practice.EmployeeCriteriaMapper;
-import com.practice.dao.Employee;
-import com.practice.dao.EmployeeRepository;
-import com.practice.dao.spec.EmployeeSpecification;
-import com.practice.dto.EmployeeCriteria;
-import com.practice.dto.EmployeeDto;
-import com.practice.dto.EmployeeMapper;
+import com.practice.dao.model.Employee;
+import com.practice.dao.repo.EmployeeRepository;
+import com.practice.dao.specification.EmployeeSpecification;
+import com.practice.rest.dto.EmployeeCriteria;
+import com.practice.rest.dto.EmployeeDto;
+import com.practice.rest.mapper.EmployeeCriteriaMapper;
+import com.practice.rest.mapper.EmployeeMapper;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService{
