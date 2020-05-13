@@ -7,7 +7,6 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
-
 import com.practice.dao.Employee;
 import com.practice.dao.util.Criteria;
 import com.practice.dao.util.CriteriaBuilder;
